@@ -136,6 +136,18 @@
     <th>54.21</th>
     <th>68.19</th>
   </tr>
+  <tr>
+    <th>GCA+IAL<sup>#[8]</sup></th>
+    <th>87.95</th>
+    <th>67.21</th>
+    <th>70.10</th>
+    <th>76.06</th>
+    <th>62.22</th>
+    <th>0.00</th>
+    <th>26.44</th>
+    <th>55.71</th>
+    <th>69.24</th>
+  </tr>
 </tbody>
 </table>
 
@@ -306,6 +318,18 @@
     <th>0.23</th>
     <th>33.99</th>
     <th>45.97</th>
+  </tr>
+  <tr>
+    <th>GCA+IAL<sup>#[8]</sup></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th>35.82</th>
+    <th>48.54</th>
   </tr>
 </tbody>
 </table>
@@ -564,3 +588,4 @@
 5. Li H, Sui M, Zhu Z. NR-DFERNet: Noise-Robust Network for Dynamic Facial Expression Recognition. arXiv, 2022.[[Paper](https://arxiv.org/abs/2206.04975)]
 6. Wang Y, Sun Y, Huang Y, et al. FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos. CVPR, 2022.[[Paper](https://arxiv.org/abs/2203.09463)]
 7. Liu Y, Dai W, Feng C, et al. MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild. ACM MM, 2022. [[Paper](https://mafw-database.github.io/MAFW/)]
+8. Li H, Niu H, Zhu Z, et al. Intensity-Aware Loss for Dynamic Facial Expression Recognition in the Wild. arXiv, 2022. [[Paper](https://arxiv.org/abs/2208.10335v1)]
