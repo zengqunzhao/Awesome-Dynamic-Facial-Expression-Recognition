@@ -18,6 +18,11 @@
   - [AFEW Benchmark [IEEE Multimedia 2012]](#afew-benchmark-ieee-multimedia-2012)
   - [Referances](#referances)
 
+<!-- ***********************************
+     ***********************************
+     DFEW Benchmark        
+     ***********************************
+     *********************************** -->
 ## [DFEW Benchmark](https://dfew-dataset.github.io/) [ACM MM 2021]
 
 <table>
@@ -148,11 +153,27 @@
     <th>55.71</th>
     <th>69.24</th>
   </tr>
+  <tr>
+    <th>DPCNet<sup>[9]</sup></th>
+    <th>     </th> <!-- Happy -->
+    <th>     </th> <!-- Sad -->
+    <th>     </th> <!-- Neutral -->
+    <th>     </th> <!-- Anger -->
+    <th>     </th> <!-- Surprise -->
+    <th>     </th> <!-- Disgust -->
+    <th>     </th> <!-- Fear -->
+    <th>57.11</th> <!-- UAR -->
+    <th>66.32</th> <!-- WAR -->
+  </tr>
 </tbody>
 </table>
 
+<!-- ***********************************
+     ***********************************
+     FERV39k Benchmark        
+     ***********************************
+     *********************************** -->
 ## [FERV39k Benchmark](https://wangyanckxx.github.io/Proj_CVPR2022_FERV39k.html) [CVPR 2022]
-
 ### Basic DFER
 
 <table>
@@ -321,15 +342,15 @@
   </tr>
   <tr>
     <th>GCA+IAL<sup>#[8]</sup></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th>35.82</th>
-    <th>48.54</th>
+    <th>     </th> <!-- Happy -->
+    <th>     </th> <!-- Sad -->
+    <th>     </th> <!-- Neutral -->
+    <th>     </th> <!-- Anger -->
+    <th>     </th> <!-- Surprise -->
+    <th>     </th> <!-- Disgust -->
+    <th>     </th> <!-- Fear -->
+    <th>35.82</th> <!-- UAR -->
+    <th>48.54</th> <!-- WAR -->
   </tr>
 </tbody>
 </table>
@@ -338,8 +359,12 @@
 
 *TODO*
 
+<!-- ***********************************
+     ***********************************
+     MAFW Benchmark        
+     ***********************************
+     *********************************** -->
 ## [MAFW Benchmark](https://mafw-database.github.io/MAFW/) [ACM MM 2022]
-
 ### 11-Class Uni-Modal Single Expression Classification
 
 <table>
@@ -480,19 +505,19 @@
   </tr>
   <tr>
     <th>T-ESFL<sup>[7]</sup></th>
-    <th>62.70</th>
-    <th>2.51</th>
-    <th>29.90</th>
-    <th>83.82</th>
-    <th>61.16</th>
-    <th>67.98</th>
-    <th>48.50</th>
-    <th>0.00</th>
-    <th>9.52</th>
-    <th>0.00</th>
-    <th>0.00</th>
-    <th>33.28</th>
-    <th>48.18</th>
+    <th>62.70</th>  <!-- Anger -->
+    <th>2.51 </th>  <!-- Disgust -->  
+    <th>29.90</th>  <!-- Fear -->
+    <th>83.82</th>  <!-- Happiness -->
+    <th>61.16</th>  <!-- Neutral -->
+    <th>67.98</th>  <!-- Sadness -->
+    <th>48.50</th>  <!-- Surprise -->
+    <th>0.00 </th>  <!-- Contempt -->
+    <th>9.52 </th>  <!-- Anxiety -->
+    <th>0.00 </th>  <!-- Helplessness -->
+    <th>0.00 </th>  <!-- Disappointment -->
+    <th>33.28</th>  <!-- UAR -->
+    <th>48.18</th>  <!-- WAR -->
   </tr>
 </tbody>
 </table>
@@ -500,13 +525,22 @@
 **Anger, Disgust, Fear, Happiness, Neutral, Sadness, Surprise, Contempt, Anxiety, Helplessness, Disappointment**
 
 ### 11-Class Multi-Modal Single Expression Classification
-
 *TODO*
 
+
+<!-- ***********************************
+     ***********************************
+     CAER Benchmark        
+     ***********************************
+     *********************************** -->
 ## [CAER Benchmark](https://caer-dataset.github.io/) [ICCV 2021]
-
 *TODO*
 
+<!-- ***********************************
+     ***********************************
+     AFEW Benchmark        
+     ***********************************
+     *********************************** -->
 ## [AFEW Benchmark](https://cs.anu.edu.au/few/AFEW.html) [IEEE Multimedia 2012]
 
 <table>
@@ -582,16 +616,24 @@
     <th>48.37</th>
     <th>53.54</th>
   </tr>
+  <tr>
+    <th>DPCNet<sup>[9]</sup></th>
+    <th>Unknown</th> <!-- Pre-trained Datasets -->
+    <th>57.11</th>   <!-- UAR -->
+    <th>66.32</th>   <!-- WAR -->
+  </tr>
 </tbody>
 </table>
 
 ## [References]()
-
-1. Jiang X, Zong Y, Zheng W, et al. DFEW: A large-scale database for recognizing dynamic facial expressions in the wild. ACM MM, 2020. [[Paper](https://doi.org/10.1145/3394171.3413620)]
-2. Zhao Z, Liu Q. Former-DFER: Dynamic facial expression recognition transformer. ACM MM, 2021. [[Paper](https://doi.org/10.1145/3394171.3413620)] [[Code](https://github.com/zengqunzhao/Former-DFER)]
-3. Liu Y, Wang W, Feng C, et al. Expression Snippet Transformer for Robust Video-based Facial Expression Recognition. arXiv, 2021. [[Paper](https://arxiv.org/abs/2109.08409)]
+<!-- Using Vancouver Format -->
+1. Jiang X, Zong Y, Zheng W, Tang C, Xia W, Lu C, Liu J. DFEW: A Large-scale Database for Recognizing Dynamic Facial Expressions in the Wild. ACM MM, 2020. [[Paper](https://doi.org/10.1145/3394171.3413620)]
+2. Zhao Z, Liu Q. Former-DFER: Dynamic Facial Expression Recognition Transformer. ACM MM, 2021. [[Paper](https://doi.org/10.1145/3394171.3413620)] [[Code](https://github.com/zengqunzhao/Former-DFER)]
+3. Liu Y, Wang W, Feng C, Zhang H, Chen Z, Zhan Y. Expression Snippet Transformer for Robust Video-based Facial Expression Recognition. arXiv, 2021. [[Paper](https://arxiv.org/abs/2109.08409)]
 4. Ma F, Sun B, Li S. Spatio-Temporal Transformer for Dynamic Facial Expression Recognition in the Wild. arXiv, 2022. [[Paper](https://arxiv.org/abs/2205.04749)]
 5. Li H, Sui M, Zhu Z. NR-DFERNet: Noise-Robust Network for Dynamic Facial Expression Recognition. arXiv, 2022.[[Paper](https://arxiv.org/abs/2206.04975)]
-6. Wang Y, Sun Y, Huang Y, et al. FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos. CVPR, 2022.[[Paper](https://arxiv.org/abs/2203.09463)]
-7. Liu Y, Dai W, Feng C, et al. MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild. ACM MM, 2022. [[Paper](https://mafw-database.github.io/MAFW/)]
-8. Li H, Niu H, Zhu Z, et al. Intensity-Aware Loss for Dynamic Facial Expression Recognition in the Wild. arXiv, 2022. [[Paper](https://arxiv.org/abs/2208.10335v1)]
+6. Wang Y, Sun Y, Huang Y, Liu Z, Gao S, Zhang W, Ge W, Zhang W. FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos. CVPR, 2022.[[Paper](https://arxiv.org/abs/2203.09463)]
+7. Liu Y, Dai W, Feng C, Wang W, Yin G, Zeng J, Shan S. MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild. ACM MM, 2022. [[Paper](https://mafw-database.github.io/MAFW/)]
+8. Li H, Niu H, Zhu Z, Zhao F. Intensity-Aware Loss for Dynamic Facial Expression Recognition in the Wild. arXiv, 2022. [[Paper](https://arxiv.org/abs/2208.10335v1)]
+9. Wang Y, Sun Y, Song W, Gao S, Huang Y, Chen Z, Ge W, Zhang W. DPCNet: Dual Path Multi-Excitation Collaborative Network for Facial Expression Representation Learning in Videos. ACM MM, 2022. [[Paper](https://doi.org/10.1145/3503161.3547865)]
+
