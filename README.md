@@ -619,8 +619,8 @@
   <tr>
     <th>DPCNet<sup>[9]</sup></th>
     <th>Unknown</th> <!-- Pre-trained Datasets -->
-    <th>57.11</th>   <!-- UAR -->
-    <th>66.32</th>   <!-- WAR -->
+    <th>47.86</th>   <!-- UAR -->
+    <th>51.67</th>   <!-- WAR -->
   </tr>
 </tbody>
 </table>
